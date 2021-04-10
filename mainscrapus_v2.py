@@ -72,11 +72,9 @@ for link in filtered:
 
     information_list.append(information)
 
-    print(paragraphs)
-
 
 df = pd.DataFrame(information_list)
-#names Times
+
 
 current_date = datetime.datetime.now()
 filename =  str(current_date.year) + '-' + str(current_date.month) + '-' + str(current_date.day) + '-' + str(current_date.hour) + ':' + str(current_date.minute)
